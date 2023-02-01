@@ -59,7 +59,7 @@ then
   cp $template_udev_file $udev_file
 
   # grab the details of the canable usb adapter
-  value=`usb-devices | grep -A2 canable.io`
+  value=`usb-devices | grep -A2 budgetcan`
 
   # get the serial number of the canable usb adapter
   var="$(cut -d'=' -f 2 <<< $value)"
