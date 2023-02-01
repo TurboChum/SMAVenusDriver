@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# for testing purposes
+# for testing purposes #
 #ROOT_DIR="/tmp/venus"
 #mkdir -p ${ROOT_DIR}/data/etc
 #mkdir -p ${ROOT_DIR}/var/log
