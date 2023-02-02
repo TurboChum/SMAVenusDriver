@@ -35,7 +35,7 @@ then
     opkg install python-misc python-distutils python-numbers python-html python-ctypes python-pkgutil
     opkg install python-unittest python-difflib python-compile gcc binutils python-dev python-unixadmin python-xmlrpc
 
-    wget https://bootstrap.pypa.io/get-pip.py
+    opkg list | grep pip
     python get-pip.py
     rm get-pip.py
 
